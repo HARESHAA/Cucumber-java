@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests">
+  <test thread-count="5" name="Test1">
+  <parameter name = "name" value = "Meena"/>
+  <parameter name = "mail" value = "meena@gmail.com"/>
+  <parameter name = "number" value = "9154984875"/>
+  <classes>
+  	<class name = "Automationpractise.Automationpraxtise.parllelTestingxml"/>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test2">
+  <parameter name = "name" value = "Suresh"/>
+  <parameter name = "mail" value = "suresh@gmail.com"/>
+  <parameter name = "number" value = "9154984865"/>
+  <classes>
+  	<class name = "Automationpractise.Automationpraxtise.parllelTestingxml"/>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test3">
+  <parameter name = "name" value = "Sudhir"/>
+  <parameter name = "mail" value = "sudhir@gmail.com"/>
+  <parameter name = "number" value = "9154984855"/>
+  <classes>
+  	<class name = "Automationpractise.Automationpraxtise.parllelTestingxml"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
